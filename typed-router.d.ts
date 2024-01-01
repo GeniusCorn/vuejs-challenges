@@ -42,6 +42,7 @@ declare module 'vue-router/auto/routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...path]': RouteRecordInfo<'/[...path]', '/:path(.*)', { path: ParamValue<true> }, { path: ParamValue<false> }>,
     '/hello-world': RouteRecordInfo<'/hello-world', '/hello-world', Record<never, never>, Record<never, never>>,
+    '/next-dom-update-flush': RouteRecordInfo<'/next-dom-update-flush', '/next-dom-update-flush', Record<never, never>, Record<never, never>>,
   }
 }
 

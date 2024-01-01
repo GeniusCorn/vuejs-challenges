@@ -22,6 +22,9 @@
     <li @click="$router.push('/hello-world')">
       Hello World
     </li>
+    <li @click="$router.push('/next-dom-update-flush')">
+      Next dom update flush
+    </li>
   </ol>
 </template>
 
